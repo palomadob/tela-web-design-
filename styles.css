@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background: #f7faff;
+  color: #1a1a1a;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 60px;
+  background: white;
+}
+
+.logo img {
+  height: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav ul li {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-header {
+  background-color: #1b4393;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+
+.left {
+  max-width: 600px;
+}
+
+.left h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.left .roxo {
+  color: #6c63ff;
+}
+
+.left p {
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+}
+
+button.blue {
+  background-color: #0057ff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.outline {
+  background: white;
+  color: #0057ff;
+  border: 2px solid #0057ff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.right {
+  position: relative;
+}
+
+.img-homem {
+  max-width: 500px;
+}
+
+.icone {
+  position: absolute;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  font-size: 18px;
+}
